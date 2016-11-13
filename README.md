@@ -9,12 +9,12 @@ Pair should be generic class with two type parameters one for key and one for va
 
 Create static PairUtils class. 
 
-There should be following methods:
-1) **equals** - verify whether two pairs equals with the same key, value types;
-2) **compareTo** - compare two pairs. Key types should implement java.lang.Comparable;
-3) **getValues** - get array of values for array of pairs;
-4) **getKeys** - get array of keys for array of pairs;
-5) **countGreaterThan** - count pairs with keys greater than specified parameter. Key type and specified parameter type should be the same;
+There should be following methods:</br>
+1) **equals** - verify whether two pairs equals with the same key, value types;</br>
+2) **compareTo** - compare two pairs. Key types should implement java.lang.Comparable;</br>
+3) **getValues** - get array of values for array of pairs;</br>
+4) **getKeys** - get array of keys for array of pairs;</br>
+5) **countGreaterThan** - count pairs with keys greater than specified parameter. Key type and specified parameter type should be the same;</br>
 6) **containsUniqueObjects** - check whether array of pairs contains only unique keys.
     
 2. Generic Container
@@ -22,13 +22,13 @@ There should be following methods:
 
 Create class container the same as for https://github.com/ChangeRequest/oop.hw1 but instead of Integer it should work with elements of any type.
 
-There should be should be following methods:
-1) **size** - get container size
-2) **clear** - clear all container
-3) **add(E)** - add element E to the end
-4) **get** - get element at specified position
-5) **add(E, I)** - add element E to specified position I
-6) **remove** - remove element at specified position
+There should be should be following methods:</br>
+1) **size** - get container size</br>
+2) **clear** - clear all container</br>
+3) **add(E)** - add element E to the end</br>
+4) **get** - get element at specified position</br>
+5) **add(E, I)** - add element E to specified position I</br>
+6) **remove** - remove element at specified position</br>
 
 Create demo program which demonstrates how Container works.
 
@@ -47,4 +47,4 @@ Method should return Container with 10 Doubles.
 Create class Printer, which contains field NumberGenerator and method generateAndPrint.
 It should generate numbers and print their sum.
 
-NOTE: Feel free to extend classes with any additional data fields, methods, generic types and so on. 
+**NOTE:** Feel free to extend classes with any additional data: fields, methods, generic types and so on. 
