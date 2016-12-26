@@ -8,8 +8,12 @@ cache:
     - $HOME/.gradle/wrapper
 jdk:
   - oraclejdk8
+before_install:
+ - chmod +x gradlew
 install:
   - ./gradlew clean assemble
 script:
   - ./gradlew check
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 sudo: required
